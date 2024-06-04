@@ -1,0 +1,25 @@
+{
+  "name": "sharp-tester",
+  "version": "1.0.0",
+  "description": "test memory usage of sharp",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/sharp": "^0.32.0",
+    "canvas": "^2.11.2",
+    "chart.js": "^3.9.0",
+    "chartjs-node-canvas": "^4.1.6",
+    "sharp": "^0.33.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx index.ts"
+  },
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.2"
+  }
+}
