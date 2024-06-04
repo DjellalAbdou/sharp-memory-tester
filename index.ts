@@ -114,6 +114,7 @@ async function main() {
   try {
     sharp.concurrency(1);
     sharp.cache(false);
+    //sharp.simd(true);
     const data = await processImage();
     await plotChart(data);
   } catch (error) {

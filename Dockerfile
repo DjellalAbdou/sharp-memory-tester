@@ -19,5 +19,5 @@ RUN yarn build
 RUN mkdir -p dist/output
 # Copy the script and images to the app directory
 
-# Run the Node.js script
 CMD ["node", "dist/index.js"]
+# Run the Node.js script
